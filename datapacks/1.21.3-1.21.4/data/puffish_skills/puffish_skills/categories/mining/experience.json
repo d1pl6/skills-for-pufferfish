@@ -31,11 +31,7 @@
 							{
 								"type": "puffish_skills:test",
 								"data": {
-									"components": {
-										"minecraft:enchantments": {
-											"minecraft:silk_touch": 1
-										}
-									}
+									"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
 								}
 							}
 						]
