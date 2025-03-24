@@ -1,0 +1,156 @@
+{
+	"fortune+0.1": {
+		"title": "+0.1 Fortune",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6wc3s3k9x0wm6hw4"
+		}
+	},
+	"mining_speed+1%": {
+		"title": "+1% Mining Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "8zhzoc5bp6paiwtj"
+		}
+	},
+	"mining_speed+2%": {
+		"title": "+2% Mining Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hltrbbvsws8wcjlg"
+		}
+	},
+	"mining_speed+3%": {
+		"title": "+3% Mining Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9ejljey8s6a1ggjg"
+		}
+	},
+	"luck+0.15": {
+		"title": "+0.15 Luck",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9pz6t7hj701pe7e1"
+		}
+	},
+	"melee_damage+1.5%": {
+		"title": "+1.5% Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.0166666667,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4zdrdewnloj898gx"
+		}
+	},
+	"ranged_damage+1.5%": {
+		"title": "+1.5% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.0166666667,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "oyelbfzpcnozx0t9"
+		}
+	}
+}

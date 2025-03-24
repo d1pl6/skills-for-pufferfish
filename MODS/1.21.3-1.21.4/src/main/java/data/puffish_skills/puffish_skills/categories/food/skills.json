@@ -1,0 +1,344 @@
+{
+	"8jcz1e1lsacj85a2": {
+		"definition": "level",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"9w5p01nqsxzpl4zf": {
+		"definition": "stamina+1%",
+		"x": 0,
+		"y": 224,
+		"root": false
+	},
+	"smw5qvrt0dvkjd82": {
+		"definition": "level",
+		"x": -64,
+		"y": 160,
+		"root": false
+	},
+	"ffrm2h90gfjqf47x": {
+		"definition": "level",
+		"x": 0,
+		"y": 96,
+		"root": false
+	},
+	"13k2vxd19l1rjmj7": {
+		"definition": "level",
+		"x": 64,
+		"y": 160,
+		"root": false
+	},
+	"uckgx4ygll6v80n8": {
+		"definition": "level",
+		"x": 0,
+		"y": 64,
+		"root": true
+	},
+	"2g3ulxtqqnn4a5lf": {
+		"definition": "level",
+		"x": -64,
+		"y": 224,
+		"root": false
+	},
+	"yp1ocdndw3piuwsb": {
+		"definition": "level",
+		"x": 64,
+		"y": 224,
+		"root": false
+	},
+	"py9ymyydvnxua02c": {
+		"definition": "stamina+1%",
+		"x": -64,
+		"y": 288,
+		"root": false
+	},
+	"jkndn5g75hyyb7ri": {
+		"definition": "stamina+1%",
+		"x": 64,
+		"y": 288,
+		"root": false
+	},
+	"nz55545wjozpsext": {
+		"definition": "level",
+		"x": -64,
+		"y": 352,
+		"root": false
+	},
+	"of5uasn6gxgka39c": {
+		"definition": "level",
+		"x": 64,
+		"y": 352,
+		"root": false
+	},
+	"bcw1oyenaobxpjt1": {
+		"definition": "fortune+0.1",
+		"x": 0,
+		"y": 384,
+		"root": false
+	},
+	"buvgtaudjmpe6au0": {
+		"definition": "mining_speed+1%",
+		"x": 0,
+		"y": 160,
+		"root": false
+	},
+	"halrmnezptmeqhuf": {
+		"definition": "GODLIKE",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"16pfhh1jzjf12ctu": {
+		"definition": "level",
+		"x": -160,
+		"y": 64,
+		"root": false
+	},
+	"hqsw6ognhv8zf1sd": {
+		"definition": "level",
+		"x": -160,
+		"y": -64,
+		"root": false
+	},
+	"pxsotzd2sc4lebem": {
+		"definition": "level",
+		"x": -224,
+		"y": 64,
+		"root": false
+	},
+	"iqn1je7ug75h35sg": {
+		"definition": "level",
+		"x": -224,
+		"y": -64,
+		"root": false
+	},
+	"2b1dp9dk0qsd2xok": {
+		"definition": "level",
+		"x": -352,
+		"y": 64,
+		"root": false
+	},
+	"d4286r3qrfcw32f6": {
+		"definition": "level",
+		"x": -352,
+		"y": -64,
+		"root": false
+	},
+	"v4i7u7rz1o1e18np": {
+		"definition": "level",
+		"x": -64,
+		"y": -160,
+		"root": false
+	},
+	"t1h9nhnu25h4f2b3": {
+		"definition": "level",
+		"x": 64,
+		"y": -160,
+		"root": false
+	},
+	"q38qmtzj7r76lci1": {
+		"definition": "level",
+		"x": -64,
+		"y": -224,
+		"root": false
+	},
+	"192xin0ng9yu7rgu": {
+		"definition": "level",
+		"x": 64,
+		"y": -224,
+		"root": false
+	},
+	"jmppcawn0ijst8qv": {
+		"definition": "level",
+		"x": -64,
+		"y": -352,
+		"root": false
+	},
+	"r2lf11m8760l1w2g": {
+		"definition": "level",
+		"x": 64,
+		"y": -352,
+		"root": false
+	},
+	"3rhvwn72wcaimiz4": {
+		"definition": "level",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"h2tsza6byryx1ia7": {
+		"definition": "level",
+		"x": 160,
+		"y": 64,
+		"root": false
+	},
+	"mll31lds3sdaizbq": {
+		"definition": "level",
+		"x": 224,
+		"y": 64,
+		"root": false
+	},
+	"xl2l5lupqkb4sif7": {
+		"definition": "level",
+		"x": 224,
+		"y": -64,
+		"root": false
+	},
+	"xi05sdkxld74wjfo": {
+		"definition": "level",
+		"x": 352,
+		"y": 64,
+		"root": false
+	},
+	"drfpg3k4esl690tl": {
+		"definition": "level",
+		"x": 352,
+		"y": -64,
+		"root": false
+	},
+	"m6dd8jy7zsq27ywg": {
+		"definition": "fortune+0.01",
+		"x": 0,
+		"y": -160,
+		"root": false
+	},
+	"kecbfwh4rdc5jfp6": {
+		"definition": "stamina+1%",
+		"x": -224,
+		"y": 0,
+		"root": false
+	},
+	"rb0r2zvv1o07lyso": {
+		"definition": "stamina+1%",
+		"x": -288,
+		"y": 64,
+		"root": false
+	},
+	"krhzngrozxaatszb": {
+		"definition": "stamina+1%",
+		"x": -288,
+		"y": -64,
+		"root": false
+	},
+	"fzsnxt24whw7pcmn": {
+		"definition": "stamina+1%",
+		"x": 224,
+		"y": 0,
+		"root": false
+	},
+	"sdhurnscmww4wqgj": {
+		"definition": "stamina+1%",
+		"x": 288,
+		"y": 64,
+		"root": false
+	},
+	"urk5amn4i4j49tys": {
+		"definition": "stamina+1%",
+		"x": 288,
+		"y": -64,
+		"root": false
+	},
+	"vopulb3auc7808j7": {
+		"definition": "stamina+1%",
+		"x": 0,
+		"y": -224,
+		"root": false
+	},
+	"ed3vhsqgxlpjjnc0": {
+		"definition": "stamina+1%",
+		"x": -64,
+		"y": -288,
+		"root": false
+	},
+	"0gwx5jfo19v33eus": {
+		"definition": "stamina+1%",
+		"x": 64,
+		"y": -288,
+		"root": false
+	},
+	"2uz47n3ehsi18djs": {
+		"definition": "stamina+10%",
+		"x": -384,
+		"y": 0,
+		"root": false
+	},
+	"7n79f50ccbhngo1e": {
+		"definition": "mining_speed+10%",
+		"x": 0,
+		"y": -384,
+		"root": false
+	},
+	"auo8ygkrx2rdbh01": {
+		"definition": "health+2",
+		"x": 384,
+		"y": 0,
+		"root": false
+	},
+	"1cimx6w48s44fby0": {
+		"definition": "healing+5%",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"33m59b88156n94d5": {
+		"definition": "resistance+1%",
+		"x": 160,
+		"y": 0,
+		"root": false
+	},
+	"6fs7iuwdxvcsoqvn": {
+		"definition": "level",
+		"x": -64,
+		"y": 0,
+		"root": true
+	},
+	"i15d07xtvu2k7ts0": {
+		"definition": "level",
+		"x": -96,
+		"y": 0,
+		"root": false
+	},
+	"tq262ig37925wd4f": {
+		"definition": "level",
+		"x": 0,
+		"y": -64,
+		"root": true
+	},
+	"kezscc51nwzdxnwq": {
+		"definition": "level",
+		"x": 0,
+		"y": -96,
+		"root": false
+	},
+	"awfvi12txzoig5bl": {
+		"definition": "level",
+		"x": 96,
+		"y": 0,
+		"root": false
+	},
+	"21d1fina54yvhk4p": {
+		"definition": "stamina+5%",
+		"x": -128,
+		"y": -128,
+		"root": false
+	},
+	"tt7zzhbxvnbfv43y": {
+		"definition": "stamina+5%",
+		"x": 128,
+		"y": -128,
+		"root": false
+	},
+	"tbkip25d9qpreqs6": {
+		"definition": "stamina+5%",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"nwfojz4yyzthz44x": {
+		"definition": "stamina+5%",
+		"x": 128,
+		"y": 128,
+		"root": false
+	}
+}

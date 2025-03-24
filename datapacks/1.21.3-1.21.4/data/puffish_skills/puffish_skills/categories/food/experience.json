@@ -1,0 +1,492 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.432 + 10, 150)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"is_potato": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:potato"
+								}
+							}
+						]
+					},
+					"is_dried_kelp": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:dried_kelp"
+								}
+							}
+						]
+					},
+					"is_poisonous_potato": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:poisonous_potato"
+								}
+							}
+						]
+					},
+					"is_sweet_berries": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:sweet_berries"
+								}
+							}
+						]
+					},
+					"is_glow_berries": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:glow_berries"
+								}
+							}
+						]
+					},
+					"is_cookie": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cookie"
+								}
+							}
+						]
+					},
+					"is_chicken": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:chicken"
+								}
+							}
+						]
+					},
+					"is_mutton": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:mutton"
+								}
+							}
+						]
+					},
+					"is_cod": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cod"
+								}
+							}
+						]
+					},
+					"is_salmon": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:salmon"
+								}
+							}
+						]
+					},
+					"is_tropical_fish": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:tropical_fish"
+								}
+							}
+						]
+					},
+					"is_cake": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cake"
+								}
+							}
+						]
+					},
+					"is_melon_slice": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:melon_slice"
+								}
+							}
+						]
+					},
+					"is_beetroot": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:beetroot"
+								}
+							}
+						]
+					},
+					"is_honey_bottle": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:honey_bottle"
+								}
+							}
+						]
+					},
+					"is_apple": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:apple"
+								}
+							}
+						]
+					},
+					"is_chorus_fruit": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:chorus_fruit"
+								}
+							}
+						]
+					},
+					"is_carrot": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:carrot"
+								}
+							}
+						]
+					},
+					"is_bread": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:bread"
+								}
+							}
+						]
+					},
+					"is_baked_potato": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:baked_potato"
+								}
+							}
+						]
+					},
+					"is_cooked_rabbit": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_rabbit"
+								}
+							}
+						]
+					},
+					"is_cooked_cod": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_cod"
+								}
+							}
+						]
+					},
+					"is_mushroom_stew": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:mushroom_stew"
+								}
+							}
+						]
+					},
+					"is_beetroot_soup": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:beetroot_soup"
+								}
+							}
+						]
+					},
+					"is_cooked_chicken": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_chicken"
+								}
+							}
+						]
+					},
+					"is_cooked_salmon": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_salmon"
+								}
+							}
+						]
+					},
+					"is_cooked_mutton": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_mutton"
+								}
+							}
+						]
+					},
+					"is_cooked_beef": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_beef"
+								}
+							}
+						]
+					},
+					"is_golden_apple": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:golden_apple"
+								}
+							}
+						]
+					},
+					"is_golden_carrot": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:golden_carrot"
+								}
+							}
+						]
+					},
+					"is_enchanted_golden_apple": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:enchanted_golden_apple"
+								}
+							}
+						]
+					},
+					"is_cooked_porkchop": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_porkchop"
+								}
+							}
+						]
+					},
+					"is_pumpkin_pie": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:pumpkin_pie"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_potato | is_dried_kelp | is_poisonous_potato | is_poisonous_potato | is_glow_berries | is_cookie | is_chicken | is_mutton | is_cod | is_salmon | is_tropical_fish",
+						"expression": "1"
+					},
+					{
+						"condition": "is_cake | is_melon_slice | is_beetroot",
+						"expression": "2"
+					},
+					{
+						"condition": "is_honey_bottle",
+						"expression": "3"
+					},
+					{
+						"condition": "is_apple | is_chorus_fruit | is_carrot | is_bread",
+						"expression": "4"
+					},
+					{
+						"condition": "is_baked_potato | is_cooked_rabbit | is_cooked_cod ",
+						"expression": "5"
+					},
+					{
+						"condition": "is_mushroom_stew | is_cooked_beef | is_cooked_chicken ",
+						"expression": "6"
+					},
+					{
+						"condition": "is_cooked_salmon | is_cooked_mutton",
+						"expression": "7"
+					},
+					{
+						"condition": "is_beetroot_soup",
+						"expression": "8"
+					},
+					{
+						"condition": "is_cooked_porkchop | is_pumpkin_pie | is_golden_carrot",
+						"expression": "10"
+					},
+					{
+						"condition": "is_golden_apple",
+						"expression": "15"
+					},
+					{
+						"condition": "is_enchanted_golden_apple",
+						"expression": "50"
+					}
+				]
+			}
+		}
+	]
+}

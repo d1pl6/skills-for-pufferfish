@@ -1,0 +1,15 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="Unlicense"
+
+[[mods]]
+modId="balanced_skill_trees"
+version="1.0.3"
+displayName="Balanced Skill Trees"
+description="Adds balanced skill trees for Pufferfish's Skills mod."
+authors="D1pl"
+
+[[dependencies.balanced_skill_trees]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.3,)"

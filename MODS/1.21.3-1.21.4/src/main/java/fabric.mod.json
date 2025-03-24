@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "balanced_skill_trees",
+	"version": "1.0.3",
+	"name": "Balanced Skill Trees",
+	"description": "Adds balanced skill trees for Pufferfish's Skills mod.",
+	"authors": [
+		"D1pl"
+	],
+	"license": "Unlicense",
+	"environment": "*",
+	"depends": {
+		"minecraft": ">=1.21.3"
+	}
+}
+

@@ -1,0 +1,353 @@
+{
+	"level": {
+		"title": "+55 Experience",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "experience_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "experience add @p 55 points"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "pupdil1hfana4keq"
+		}
+	},
+	"fortune+0.01": {
+		"title": "+0.01 Fortune",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:fortune",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "k5dy9orhenw36ii0"
+		}
+	},
+	"fortune+0.1": {
+		"title": "+0.1 Fortune",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:fortune",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q9s0givlksckud8l"
+		}
+	},
+	"stamina+1%": {
+		"title": "+1% Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:stamina",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4yh5xkhrsxtadyjv"
+		}
+	},
+	"stamina+5%": {
+		"title": "+5% Stamina",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "host2jads79p02bi"
+		}
+	},
+	"stamina+10%": {
+		"title": "+10% Stamina",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:stamina",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "8nbio1zprqc41lnc"
+		}
+	},
+	"mining_speed+1%": {
+		"title": "+1 % Mining Speed",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:mining_speed",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ea24pnbiegz21rd9"
+		}
+	},
+	"mining_speed+10%": {
+		"title": "+10 % Mining Speed",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:mining_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ub0uu5dynb4jn1s8"
+		}
+	},
+	"healing+5%": {
+		"title": "+5% Healing",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "mk8y85mwi7l7jd17"
+		}
+	},
+	"health+2": {
+		"title": "+1 Heart",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lqgrzb6o5ujdp1ez"
+		}
+	},
+	"resistance+1%": {
+		"title": "+1% Resistance",
+		"description": "Cost 5 points",
+		"extra_description": "You need to unlock related skills",
+		"cost": 5,
+		"required_skills": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1hoqyabaxw1hejah"
+		}
+	},
+	"GODLIKE": {
+		"title": "GODLIKE",
+		"description": "Cost 10 points. (Press shift)",
+		"extra_description": "You need to unlock all skills. +15 levels, 0.1 fortune, 10% stamina, 6% mining speed, 10% healing, 1 heart",
+		"cost": 10,
+		"required_skills": 4,
+		"required_spent_points": 97,
+		"size": 2,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "textures/gui/sprites/widget/locked_button_disabled.png",
+				"unlocked": "textures/item/golden_carrot.png",
+				"locked": "textures/gui/sprites/widget/locked_button_disabled.png",
+				"affordable": "textures/gui/sprites/widget/unlocked_button_highlighted.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "textures/gui/tab_header_background.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "experience add @p 15 levels"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:fortune",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:stamina",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:mining_speed",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:healing",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9k782vzjp10anz35"
+		}
+	}
+}
