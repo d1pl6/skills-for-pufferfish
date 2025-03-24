@@ -35,7 +35,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:fortune",
+					"attribute": "puffish_skills:player.fortune",
 					"value": 0.01,
 					"operation": "addition"
 				}
@@ -61,7 +61,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:fortune",
+					"attribute": "puffish_skills:player.fortune",
 					"value": 0.1,
 					"operation": "addition"
 				}
@@ -83,7 +83,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:stamina",
+					"attribute": "puffish_skills:player.stamina",
 					"value": 0.01,
 					"operation": "multiply_total"
 				}
@@ -109,7 +109,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:stamina",
+					"attribute": "puffish_skills:player.stamina",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -135,7 +135,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:stamina",
+					"attribute": "puffish_skills:player.stamina",
 					"value": 0.1,
 					"operation": "multiply_total"
 				}
@@ -161,7 +161,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:mining_speed",
+					"attribute": "puffish_skills:player.mining_speed",
 					"value": 0.01,
 					"operation": "multiply_base"
 				}
@@ -187,7 +187,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:mining_speed",
+					"attribute": "puffish_skills:player.mining_speed",
 					"value": 0.1,
 					"operation": "multiply_base"
 				}
@@ -213,7 +213,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:healing",
+					"attribute": "puffish_skills:player.healing",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -239,7 +239,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "max_health",
+					"attribute": "generic.max_health",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -265,7 +265,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:resistance",
+					"attribute": "puffish_skills:player.resistance",
 					"value": 0.01,
 					"operation": "multiply_total"
 				}
@@ -281,21 +281,21 @@
 		"extra_description": "You need to unlock all skills. +15 levels, 0.1 fortune, 10% stamina, 6% mining speed, 10% healing, 1 heart",
 		"cost": 10,
 		"required_skills": 4,
-		"required_spent_points": 97,
+		"required_spent_points": 104,
 		"size": 2,
 		"frame": {
 			"type": "texture",
 			"data": {
-				"available": "textures/gui/sprites/widget/locked_button_disabled.png",
+				"available": "textures/item/carrot.png",
 				"unlocked": "textures/item/golden_carrot.png",
-				"locked": "textures/gui/sprites/widget/locked_button_disabled.png",
-				"affordable": "textures/gui/sprites/widget/unlocked_button_highlighted.png"
+				"locked": "textures/gui/title/background/panorama_overlay.png",
+				"affordable": "textures/item/carrot.png"
 			}
 		},
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "textures/gui/tab_header_background.png"
+				"texture": "textures/gui/title/background/panorama_overlay.png"
 			}
 		},
 		"rewards": [
@@ -308,7 +308,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:fortune",
+					"attribute": "puffish_skills:player.fortune",
 					"value": 0.1,
 					"operation": "addition"
 				}
@@ -316,7 +316,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:stamina",
+					"attribute": "puffish_skills:player.stamina",
 					"value": 0.1,
 					"operation": "multiply_total"
 				}
@@ -324,7 +324,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:mining_speed",
+					"attribute": "puffish_skills:player.mining_speed",
 					"value": 0.06,
 					"operation": "multiply_base"
 				}
@@ -332,7 +332,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:healing",
+					"attribute": "puffish_skills:player.healing",
 					"value": 0.1,
 					"operation": "multiply_total"
 				}
@@ -340,7 +340,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "max_health",
+					"attribute": "generic.max_health",
 					"value": 2,
 					"operation": "addition"
 				}

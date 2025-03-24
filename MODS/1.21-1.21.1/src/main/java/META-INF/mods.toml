@@ -4,7 +4,7 @@ license="Unlicense"
 
 [[mods]]
 modId="balanced_skill_trees"
-version="1.0.3"
+version="1.0.4"
 displayName="Balanced Skill Trees"
 description="Adds Balanced skill trees for Pufferfish's Skills mod."
 authors="D1pl"

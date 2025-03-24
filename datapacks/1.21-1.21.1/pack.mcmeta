@@ -1,0 +1,9 @@
+{
+	"pack": {
+		"pack_format": 57,
+		"supported_formats": [57, 999],
+		"description": {
+      		"text": "Balanced skill trees."
+		}
+	}
+}
